@@ -1,0 +1,50 @@
+*{
+    padding: 10px;
+    background-color: gray;
+}
+
+
+body{
+    border:solid green;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+div #subdiv{
+    border: 5px solid black;
+}
+div #subdiv2{
+    display:flex;
+    border: 5px solid red;
+    width: subdiv fit-content;
+}
+
+.first{
+    display:flex;
+    background-color: blue;
+    float: left;
+    width: subdiv2 fit-content;
+}
+.second{
+    display:flex;
+    border: 5px solid blue;
+    float: right;
+    width: subdiv2 fit-content;
+}
+
+
+
+.first_1{
+    display:flex;
+    border: 5px solid red;
+    width: middle;
+    float: left;
+}
+.second_1{
+    display:flex;
+    border: 5px solid blue;
+    width: middle;
+    float: right;
+}
+
